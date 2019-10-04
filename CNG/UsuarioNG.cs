@@ -21,7 +21,7 @@ namespace CNG
                 return instancia;
             }
         }
-        public Usuario ValidaUsuario(Usuario Pessoa)
+        public bool ValidaUsuario(Usuario Pessoa)
         {
             return UsuarioCDD.Instancia.ValidaUsuario(Pessoa);
         }

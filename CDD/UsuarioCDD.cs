@@ -21,10 +21,19 @@ namespace CDD
                 return instancia;
             }
         }
-        public Usuario ValidaUsuario(Usuario Usuario)
+        public bool ValidaUsuario(Usuario Usuario)
         {
-            Usuario.NomeDoUsuario = "Luis " + Usuario.NomeDoUsuario;
-            return Usuario;
+            // fazer a logica do banco de dados e setar como logado na tabela.
+            if (Usuario.NomeDoUsuario == "teste")
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+            //Usuario.NomeDoUsuario = "Luis " + Usuario.NomeDoUsuario;
+            //return Usuario;
         }
     }
 }

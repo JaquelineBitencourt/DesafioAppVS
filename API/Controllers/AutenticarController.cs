@@ -25,10 +25,11 @@ namespace API.Controllers
 
         [HttpPost]
         [Route("validaNomeUsuario")]
-        public ActionResult<string> ValidaNomeUsuario([FromBody]Usuario Usuario)
+        public ActionResult<bool> ValidaNomeUsuario([FromBody]Usuario Usuario)
         {
-            Usuario = UsuarioNG.Instancia.ValidaUsuario(Usuario);
-            return Ok(Usuario.NomeDoUsuario);
+
+            //Usuario = UsuarioNG.Instancia.ValidaUsuario(Usuario);
+            return Ok(UsuarioNG.Instancia.ValidaUsuario(Usuario));
         }
     }
 }
