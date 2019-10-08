@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using MDL;
 using CNG;
+using CEF;
 using System.Threading.Tasks;
 
 namespace API.Controllers
@@ -14,21 +15,23 @@ namespace API.Controllers
     {
         [HttpGet]
         [Route("dsa")]
-        public ActionResult<Usuario> Teste()
+        public ActionResult<Usuarios> BuscaUsuarios()
         {
 
-            Usuario pessoa = new Usuario();
-            pessoa.NomeDoUsuario = "Luis Henrique";
-            return Ok(pessoa);
+            CNG.UsuarioNG listaUsuario = new UsuarioNG();
+
+            return Ok(listaUsuario.BuscaUsuarios());
         }
 
 
-        [HttpPost]
-        [Route("validaNomeUsuario")]
-        public ActionResult<string> ValidaNomeUsuario([FromBody]Usuario Usuario)
-        {
-            Usuario = UsuarioNG.Instancia.ValidaUsuario(Usuario);
-            return Ok(Usuario.NomeDoUsuario);
+        //    //[HttpPost]
+        //    //[Route("validaNomeUsuario")]
+        //    //public ActionResult<string> ValidaNomeUsuario([FromBody]Usuario Usuario)
+        //    //{
+        //    //    Usuario = UsuarioNG.Instancia.ValidaUsuario(Usuario);
+        //    //    return Ok(Usuario.NomeDoUsuario);
+        //    //}
+
+
         }
     }
-}

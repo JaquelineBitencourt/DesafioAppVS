@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
+    "",
+    "\\API",
+    "\\CDD",
+    "\\CEF",
     "\\MDL"
   ],
+  "SelectedNode": "\\API\\Properties",
   "PreviewInSolutionExplorer": false
 }

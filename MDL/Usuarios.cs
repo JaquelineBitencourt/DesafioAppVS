@@ -2,7 +2,7 @@
 
 namespace MDL
 {
-    public class Usuario
+    public class Usuarios
     {
         public string NomeDoUsuario { get; set; }
     }

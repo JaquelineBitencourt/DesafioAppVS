@@ -1,0 +1,3 @@
+﻿
+Para atualizar os modelos do Entity Framework conforme BD
+Scaffold-DbContext "Server=carreteiro\equipeinovacao;Database=XimasAPP;User Id=appchimarrao;Password=safeweb123;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Modelos -force

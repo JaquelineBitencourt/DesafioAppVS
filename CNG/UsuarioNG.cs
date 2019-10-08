@@ -1,6 +1,9 @@
 ﻿using System;
 using MDL;
 using CDD;
+using CEF;
+using System.Collections.Generic;
+
 namespace CNG
 {
     public class UsuarioNG
@@ -10,8 +13,8 @@ namespace CNG
          * Para chamar qualquer metodo tem que usar a classe static Instancia. 
          * Exemplo: UsuarioCDD.Instancia.ValidaPessoa
          */
-        private static UsuarioNG instancia;
-        private UsuarioNG() { }
+        public static UsuarioNG instancia;
+        public UsuarioNG() { }
         public static UsuarioNG Instancia
         {
             get
@@ -21,9 +24,18 @@ namespace CNG
                 return instancia;
             }
         }
-        public Usuario ValidaUsuario(Usuario Pessoa)
+        //public Usuario ValidaUsuario(Usuario Pessoa)
+        //{
+        //    //return UsuarioCDD.Instancia.ValidaUsuario(Pessoa);
+        //}
+
+        public IEnumerable<CEF.Modelos.Usuarios> BuscaUsuarios()
         {
-            return UsuarioCDD.Instancia.ValidaUsuario(Pessoa);
+            UsuarioCDD usuarioCDD = new UsuarioCDD();
+
+            return UsuarioCDD.Instancia.BuscaUsuarios();
+
+
         }
     }
 }

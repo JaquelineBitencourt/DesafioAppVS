@@ -1,0 +1,16 @@
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CDD\bin\Debug\netcoreapp2.2\CDD.deps.json
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CDD\bin\Debug\netcoreapp2.2\CDD.dll
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CDD\bin\Debug\netcoreapp2.2\CDD.pdb
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CDD\bin\Debug\netcoreapp2.2\MDL.dll
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CDD\bin\Debug\netcoreapp2.2\MDL.pdb
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CDD\obj\Debug\netcoreapp2.2\CDD.csprojAssemblyReference.cache
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CDD\obj\Debug\netcoreapp2.2\CDD.Properties.Resources.resources
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CDD\obj\Debug\netcoreapp2.2\CDD.csproj.GenerateResource.cache
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CDD\obj\Debug\netcoreapp2.2\CDD.csproj.CoreCompileInputs.cache
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CDD\obj\Debug\netcoreapp2.2\CDD.AssemblyInfoInputs.cache
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CDD\obj\Debug\netcoreapp2.2\CDD.AssemblyInfo.cs
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CDD\obj\Debug\netcoreapp2.2\CDD.csproj.CopyComplete
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CDD\obj\Debug\netcoreapp2.2\CDD.dll
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CDD\obj\Debug\netcoreapp2.2\CDD.pdb
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CDD\bin\Debug\netcoreapp2.2\CEF.dll
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CDD\bin\Debug\netcoreapp2.2\CEF.pdb

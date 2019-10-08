@@ -25,3 +25,12 @@ C:\Projetos\Chimarrao\Back-End\MDL\obj\Debug\netcoreapp2.1\MDL.AssemblyInfoInput
 C:\Projetos\Chimarrao\Back-End\MDL\obj\Debug\netcoreapp2.1\MDL.AssemblyInfo.cs
 C:\Projetos\Chimarrao\Back-End\MDL\obj\Debug\netcoreapp2.1\MDL.dll
 C:\Projetos\Chimarrao\Back-End\MDL\obj\Debug\netcoreapp2.1\MDL.pdb
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\MDL\bin\Debug\netcoreapp2.1\MDL.deps.json
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\MDL\bin\Debug\netcoreapp2.1\MDL.dll
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\MDL\bin\Debug\netcoreapp2.1\MDL.pdb
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\MDL\obj\Debug\netcoreapp2.1\MDL.csprojAssemblyReference.cache
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\MDL\obj\Debug\netcoreapp2.1\MDL.csproj.CoreCompileInputs.cache
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\MDL\obj\Debug\netcoreapp2.1\MDL.AssemblyInfoInputs.cache
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\MDL\obj\Debug\netcoreapp2.1\MDL.AssemblyInfo.cs
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\MDL\obj\Debug\netcoreapp2.1\MDL.dll
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\MDL\obj\Debug\netcoreapp2.1\MDL.pdb

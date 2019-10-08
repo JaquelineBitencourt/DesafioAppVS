@@ -1,0 +1,14 @@
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CEF\bin\Debug\netcoreapp2.2\CEF.deps.json
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CEF\bin\Debug\netcoreapp2.2\CEF.runtimeconfig.json
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CEF\bin\Debug\netcoreapp2.2\CEF.runtimeconfig.dev.json
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CEF\bin\Debug\netcoreapp2.2\CEF.dll
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CEF\obj\Debug\netcoreapp2.2\CEF.csprojAssemblyReference.cache
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CEF\obj\Debug\netcoreapp2.2\CEF.csproj.CoreCompileInputs.cache
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CEF\obj\Debug\netcoreapp2.2\CEF.AssemblyInfoInputs.cache
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CEF\obj\Debug\netcoreapp2.2\CEF.AssemblyInfo.cs
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CEF\obj\Debug\netcoreapp2.2\CEF.RazorTargetAssemblyInfo.cache
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CEF\bin\Debug\netcoreapp2.2\CEF.pdb
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CEF\obj\Debug\netcoreapp2.2\CEF.RazorAssemblyInfo.cache
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CEF\obj\Debug\netcoreapp2.2\CEF.RazorAssemblyInfo.cs
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CEF\obj\Debug\netcoreapp2.2\CEF.dll
+C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\CEF\obj\Debug\netcoreapp2.2\CEF.pdb
