@@ -24,9 +24,9 @@ namespace CNG
                 return instancia;
             }
         }
-        //public Usuario ValidaUsuario(Usuario Pessoa)
+        //public Usuarios ValidaUsuario(CEF.Modelos.Usuarios Pessoa)
         //{
-        //    //return UsuarioCDD.Instancia.ValidaUsuario(Pessoa);
+        //    return UsuarioCDD.Instancia.ValidaUsuario(Pessoa);
         //}
 
         public IEnumerable<CEF.Modelos.Usuarios> BuscaUsuarios()
@@ -37,5 +37,16 @@ namespace CNG
 
 
         }
+        public CEF.Modelos.Usuarios UsuarioLogado(CEF.Modelos.Usuarios usuario)
+        {
+            //UsuarioCDD usuarioCDD = new UsuarioCDD();
+
+
+
+
+            return UsuarioCDD.Instancia.UsuarioLogado(usuario);
+        }
+
+
     }
 }

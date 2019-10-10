@@ -7,7 +7,9 @@ namespace CEF.Modelos
     {
         public int IdUsuario { get; set; }
         public string NomeDoUsuario { get; set; }
-        public byte? Logado { get; set; }
-        public byte? Chimarreando { get; set; }
+        public bool? Logado { get; set; }
+        public bool? Chimarreando { get; set; }
+        public int? Ordem { get; set; }
+        public DateTime? OrdemDt { get; set; }
     }
 }

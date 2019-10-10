@@ -14,7 +14,7 @@ namespace API.Controllers
     public class AutenticarController : ControllerBase
     {
         [HttpGet]
-        [Route("dsa")]
+        [Route("BuscaUsuarios")]
         public ActionResult<Usuarios> BuscaUsuarios()
         {
 
@@ -24,14 +24,30 @@ namespace API.Controllers
         }
 
 
-        //    //[HttpPost]
-        //    //[Route("validaNomeUsuario")]
-        //    //public ActionResult<string> ValidaNomeUsuario([FromBody]Usuario Usuario)
-        //    //{
-        //    //    Usuario = UsuarioNG.Instancia.ValidaUsuario(Usuario);
-        //    //    return Ok(Usuario.NomeDoUsuario);
-        //    //}
+        //[HttpPost]
+        //[Route("validaNomeUsuario")]
+        //public ActionResult<string> ValidaNomeUsuario([FromBody]Usuarios Usuario)
+        //{
+        //    Usuario = UsuarioNG.Instancia.ValidaUsuario(Usuarios);
+        //    return Ok(Usuario.NomeDoUsuario);
+        //}
+
+        [HttpPost]
+        [Route("UsuarioLogado")]
+        public ActionResult<Usuarios> UsuarioLogado([FromBody]CEF.Modelos.Usuarios usuario)
+        {
+            //  usuario = UsuarioNG.Instancia.UsuarioLogado(usuario);
 
 
+            CNG.UsuarioNG usuariong = new UsuarioNG();
+            CEF.Modelos.Usuarios usuarioCEF = new CEF.Modelos.Usuarios();
+
+            usuarioCEF = usuariong.UsuarioLogado(usuario);
+
+            return Ok(usuarioCEF);
         }
+
+
+
     }
+}

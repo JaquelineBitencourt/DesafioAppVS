@@ -38,6 +38,10 @@ namespace CEF.Modelos
                     .IsRequired()
                     .HasMaxLength(30)
                     .IsUnicode(false);
+
+                entity.Property(e => e.OrdemDt)
+                    .HasColumnName("OrdemDT")
+                    .HasColumnType("datetime");
             });
         }
     }
