@@ -10,6 +10,5 @@ namespace CEF.Modelos
         public bool? Logado { get; set; }
         public bool? Chimarreando { get; set; }
         public int? Ordem { get; set; }
-        public DateTime? OrdemDt { get; set; }
     }
 }

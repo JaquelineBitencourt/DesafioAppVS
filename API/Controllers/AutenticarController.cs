@@ -32,21 +32,45 @@ namespace API.Controllers
         //    return Ok(Usuario.NomeDoUsuario);
         //}
 
+        //[HttpPost]
+        //[Route("UsuarioLogado")]
+        //public ActionResult<Usuarios> UsuarioLogado([FromBody]CEF.Modelos.Usuarios usuario)
+        //{
+
+        //    CNG.UsuarioNG usuariong = new UsuarioNG();
+        //    CEF.Modelos.Usuarios usuarioCEF = new CEF.Modelos.Usuarios();
+
+        //    usuarioCEF = usuariong.UsuarioLogado(usuario);
+
+        //    return Ok(usuarioCEF);
+        //}
+
+
         [HttpPost]
-        [Route("UsuarioLogado")]
-        public ActionResult<Usuarios> UsuarioLogado([FromBody]CEF.Modelos.Usuarios usuario)
+        [Route("LogaUsuario")]
+        public ActionResult<Usuarios> LogaUsuario([FromBody]CEF.Modelos.Usuarios usuario)
         {
-            //  usuario = UsuarioNG.Instancia.UsuarioLogado(usuario);
 
+            CNG.UsuarioNG logaUsuarioNG = new UsuarioNG();
+            CEF.Modelos.Usuarios logaUsuarioCEF = new CEF.Modelos.Usuarios();
 
-            CNG.UsuarioNG usuariong = new UsuarioNG();
-            CEF.Modelos.Usuarios usuarioCEF = new CEF.Modelos.Usuarios();
+            logaUsuarioCEF = logaUsuarioNG.LogaUsuario(usuario);
 
-            usuarioCEF = usuariong.UsuarioLogado(usuario);
-
-            return Ok(usuarioCEF);
+            return Ok(logaUsuarioCEF);
         }
 
+        [HttpPost]
+        [Route("SetaChimarreando")]
+        public ActionResult<Usuarios> SetaChimarreando([FromBody]CEF.Modelos.Usuarios usuario) {
+
+            CNG.UsuarioNG usuarioChimarreandoNG = new UsuarioNG();
+            CEF.Modelos.Usuarios usuarioChimarreandoCEF = new CEF.Modelos.Usuarios();
+
+            usuarioChimarreandoCEF = usuarioChimarreandoNG.SetaChimarreando(usuario);
+
+            return Ok(usuarioChimarreandoCEF);
+
+        }
 
 
     }

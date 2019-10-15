@@ -42,12 +42,11 @@ namespace CDD
                          where a.IdUsuario >= 1
                          select new Usuarios
                          {
-                             IdUsuario = 0,
                              NomeDoUsuario = a.NomeDoUsuario,
                              Logado = a.Logado,
                              Chimarreando = a.Chimarreando,
-
-
+                             Ordem = a.Ordem,
+                             IdUsuario = a.IdUsuario
                          }).ToList();
             }
 
@@ -69,7 +68,7 @@ namespace CDD
         /// <returns></returns>
         /// Grava a posição / a ordem do usuário no banco
 
-        public bool LogaUsuario(Usuarios usuario)
+        public Usuarios LogaUsuario(Usuarios usuario)
         {
             try
             {
@@ -82,9 +81,9 @@ namespace CDD
 
                     //pega a última posição da tabela ordem
                     int? ordem = (from o in db.Usuarios
-                                 where o.Logado == true
-                                 && o.Ordem.HasValue
-                                 select o.Ordem).OrderByDescending(x => x.Value).FirstOrDefault();
+                                  where o.Logado == true
+                                  && o.Ordem.HasValue
+                                  select o.Ordem).OrderByDescending(x => x.Value).FirstOrDefault();
 
                     if (!ordem.HasValue || ordem == 0)
                     {
@@ -97,66 +96,66 @@ namespace CDD
 
                     if (logado != null)
                     {
+
+
                         logado.Logado = true;
                         logado.Ordem = ordem;
                         db.SaveChanges();
 
-                        return true;
+                        return logado;
                     }
                     else
                     {
-                        return false;
+                        return null;
                     }
 
                 }
             }
             catch (Exception)
             {
-                return false;
+                return null;
             }
         }
 
 
-        public bool SetaChimarreando(Usuarios usuario)
+        public Usuarios SetaChimarreando(Usuarios usuario)
         {
 
-            
-            // seta chimarreando para UM e remove de todos os outros da mesma fila
+
             try
             {
                 using (var db = new CEF.Modelos.XimasAPPContext())
                 {
+                    //consulta se o nome digitado está na tabela
                     Usuarios logado = (from l in db.Usuarios
-                                       where l.NomeDoUsuario == usuario.NomeDoUsuario
-                                       && l.Logado == true
+                                       where l.IdUsuario == usuario.IdUsuario
                                        select l).FirstOrDefault();
 
-                    if (logado != null )
+                    if (logado != null)
                     {
                         List<Usuarios> Lista = (from l in db.Usuarios
-                                                where l.Logado == true
+                                                where l.Logado == true && l.Chimarreando == true
                                                 select l).ToList();
 
-
-                        Lista.ForEach(x => { x.Chimarreando = false; });
+                        Lista.ForEach(x => x.Chimarreando = false);
 
                         logado.Chimarreando = true;
+
                         db.SaveChanges();
 
-                        return true;
+                        return logado;
                     }
                     else
                     {
-                        return false;
+                        return null;
                     }
                 }
             }
             catch (Exception)
             {
-                return false;
+                return null;
             }
         }
-
 
         /// <summary>
         /// Busca lista de usuários logados
@@ -177,35 +176,15 @@ namespace CDD
         }
 
 
-        //este método são testes ignore ele mas não exclua por enquanto
-        public Usuarios UsuarioLogado(Usuarios usuario)
-        {
-            LogaUsuario(usuario);
-
-            //Usuarios logado = new Usuarios();
-
-            //List<Usuarios> fila = new List<Usuarios>();
-
-            //using (var db = new CEF.Modelos.XimasAPPContext())
-            //{
-
-            //    logado = (from l in db.Usuarios
-            //              where l.NomeDoUsuario == usuario.NomeDoUsuario
-            //              select l).FirstOrDefault();
-            //    logado.Logado = 1;
-            //    logado.Chimarreando = 1;
-            //    fila.Add(logado);
+        //este método são testes
+        //public Usuarios UsuarioLogado(Usuarios usuario)
+        //{
+        //    //LogaUsuario(usuario);
+        //    UsuarioChimarreando(usuario);
+        //    return usuario;
 
 
-
-
-            //    db.SaveChanges();
-
-            //}
-            return usuario;
-
-
-        }
+        //}
 
 
     }

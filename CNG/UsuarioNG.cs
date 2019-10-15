@@ -3,6 +3,7 @@ using MDL;
 using CDD;
 using CEF;
 using System.Collections.Generic;
+using CEF.Modelos;
 
 namespace CNG
 {
@@ -37,16 +38,24 @@ namespace CNG
 
 
         }
-        public CEF.Modelos.Usuarios UsuarioLogado(CEF.Modelos.Usuarios usuario)
+        //public CEF.Modelos.Usuarios UsuarioLogado(CEF.Modelos.Usuarios usuario)
+        //{
+            
+        //    return UsuarioCDD.Instancia.UsuarioLogado(usuario);
+        //}
+
+
+        public CEF.Modelos.Usuarios LogaUsuario(CEF.Modelos.Usuarios usuario)
         {
-            //UsuarioCDD usuarioCDD = new UsuarioCDD();
-
-
-
-
-            return UsuarioCDD.Instancia.UsuarioLogado(usuario);
+           
+           return UsuarioCDD.Instancia.LogaUsuario(usuario);
         }
 
 
+        public CEF.Modelos.Usuarios SetaChimarreando(CEF.Modelos.Usuarios usuarios)
+        {
+
+            return UsuarioCDD.Instancia.SetaChimarreando(usuarios);
+        }
     }
 }
