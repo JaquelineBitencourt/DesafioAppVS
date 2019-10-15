@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CNG", "CNG\CNG.csproj", "{6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDL", "MDL\MDL.csproj", "{DB30695B-CE4E-48C8-8A0F-D423CE1F1335}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEF", "CEF\CEF.csproj", "{AC12FAA9-9952-46E1-8E47-2AE5E7F6AAF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CEF", "CEF\CEF.csproj", "{AC12FAA9-9952-46E1-8E47-2AE5E7F6AAF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS", "WS\WS.csproj", "{0E251A62-F662-483A-914F-0D35CA419C1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{AC12FAA9-9952-46E1-8E47-2AE5E7F6AAF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC12FAA9-9952-46E1-8E47-2AE5E7F6AAF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC12FAA9-9952-46E1-8E47-2AE5E7F6AAF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E251A62-F662-483A-914F-0D35CA419C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E251A62-F662-483A-914F-0D35CA419C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E251A62-F662-483A-914F-0D35CA419C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E251A62-F662-483A-914F-0D35CA419C1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
