@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using CEF.Modelos;
 using CEF;
 using System.Linq;
-
+using Microsoft.EntityFrameworkCore;
 
 namespace CDD
 {
@@ -39,7 +39,8 @@ namespace CDD
             using (var db = new CEF.Modelos.XimasAPPContext())
             {
                 lista = (from a in db.Usuarios
-                         where a.IdUsuario >= 1
+                         where a.Logado == true
+                         orderby a.Ordem
                          select new Usuarios
                          {
                              NomeDoUsuario = a.NomeDoUsuario,
@@ -47,7 +48,7 @@ namespace CDD
                              Chimarreando = a.Chimarreando,
                              Ordem = a.Ordem,
                              IdUsuario = a.IdUsuario
-                         }).ToList();
+                         }).AsNoTracking().ToList();
             }
 
             return lista;
@@ -131,6 +132,7 @@ namespace CDD
                                        where l.IdUsuario == usuario.IdUsuario
                                        select l).FirstOrDefault();
 
+
                     if (logado != null)
                     {
                         List<Usuarios> Lista = (from l in db.Usuarios
@@ -164,7 +166,6 @@ namespace CDD
         public List<Usuarios> BuscaFila()
         {
             List<Usuarios> lista = new List<Usuarios>();
-
             using (var db = new CEF.Modelos.XimasAPPContext())
             {
                 lista = (from a in db.Usuarios
@@ -173,6 +174,46 @@ namespace CDD
             }
 
             return lista;
+        }
+
+        public void ProximoChimarreador()
+        {
+            using (var db = new CEF.Modelos.XimasAPPContext())
+            {
+                List<Usuarios> lista = (from x in db.Usuarios
+                                        select x).ToList();
+
+                Usuarios UsuarioChimarreando = (from l in db.Usuarios
+                                                where l.Chimarreando == true && l.Logado == true
+                                                select l).FirstOrDefault();
+
+                Usuarios ProximoChimarreando = (from b in db.Usuarios
+                                                where b.Ordem > UsuarioChimarreando.Ordem
+                                                && b.Logado == true
+                                                orderby b.Ordem
+                                                select b).Take(1)
+                                                     .Union(from b in db.Usuarios
+                                                            where b.Logado == true
+                                                            orderby b.Ordem
+                                                            select b).Take(1).FirstOrDefault();
+
+                //if (ProximoChimarreando == null)
+                //{
+                //    ProximoChimarreando = (from a in db.Usuarios
+                //                           where a.Logado == true
+                //                           orderby a.Ordem
+                //                           select a).FirstOrDefault();
+                //}
+
+                lista.ForEach(x => x.Chimarreando = false);
+                ProximoChimarreando.Chimarreando = true;
+                db.SaveChanges();
+
+                //.Where(x => x.Ordem > AtualChimarreando)
+                //.OrderBy(x => x.Ordem)
+                //.Select(x => x.IdUsuario)
+                //.FirstOrDefault().ToString());
+            }
         }
 
 

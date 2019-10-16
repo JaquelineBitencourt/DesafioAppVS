@@ -21,12 +21,6 @@ C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\API\obj\Debug\netcoreapp2.2\API.
 C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\API\obj\Debug\netcoreapp2.2\API.pdb
 C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\API\bin\Debug\netcoreapp2.2\CEF.dll
 C:\projetos\AppChimas\DesafioAppVS\DesafioAppVS\API\bin\Debug\netcoreapp2.2\CEF.pdb
-C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\obj\Debug\netcoreapp2.2\API.csprojAssemblyReference.cache
-C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\obj\Debug\netcoreapp2.2\API.csproj.CoreCompileInputs.cache
-C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\obj\Debug\netcoreapp2.2\API.AssemblyInfoInputs.cache
-C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\obj\Debug\netcoreapp2.2\API.AssemblyInfo.cs
-C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\obj\Debug\netcoreapp2.2\API.dll
-C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\obj\Debug\netcoreapp2.2\API.pdb
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\bin\Debug\netcoreapp2.2\API.deps.json
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\bin\Debug\netcoreapp2.2\API.runtimeconfig.json
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\bin\Debug\netcoreapp2.2\API.runtimeconfig.dev.json
@@ -40,7 +34,13 @@ C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\bin\Debug\netcoreapp2.2\CEF.pdb
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\bin\Debug\netcoreapp2.2\CNG.pdb
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\bin\Debug\netcoreapp2.2\MDL.pdb
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\bin\Debug\netcoreapp2.2\CDD.pdb
+C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\obj\Debug\netcoreapp2.2\API.csprojAssemblyReference.cache
+C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\obj\Debug\netcoreapp2.2\API.csproj.CoreCompileInputs.cache
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\obj\Debug\netcoreapp2.2\API.RazorAssemblyInfo.cache
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\obj\Debug\netcoreapp2.2\API.RazorAssemblyInfo.cs
+C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\obj\Debug\netcoreapp2.2\API.AssemblyInfoInputs.cache
+C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\obj\Debug\netcoreapp2.2\API.AssemblyInfo.cs
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\obj\Debug\netcoreapp2.2\API.RazorTargetAssemblyInfo.cache
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\obj\Debug\netcoreapp2.2\API.csproj.CopyComplete
+C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\obj\Debug\netcoreapp2.2\API.dll
+C:\Users\Luis.Ferreira\Desktop\BackChimarrao\API\obj\Debug\netcoreapp2.2\API.pdb

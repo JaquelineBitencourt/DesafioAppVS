@@ -13,4 +13,10 @@
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CEF\CEF.csproj" />
+    <ProjectReference Include="..\CNG\CNG.csproj" />
+    <ProjectReference Include="..\MDL\MDL.csproj" />
+  </ItemGroup>
+
 </Project>

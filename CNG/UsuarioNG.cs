@@ -57,5 +57,10 @@ namespace CNG
 
             return UsuarioCDD.Instancia.SetaChimarreando(usuarios);
         }
+
+        public void ProximoChimarreando()
+        {
+            UsuarioCDD.Instancia.ProximoChimarreador();
+        }
     }
 }

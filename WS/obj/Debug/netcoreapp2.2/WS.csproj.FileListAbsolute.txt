@@ -3,6 +3,7 @@ C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\bin\Debug\netcoreapp2.2\WS.runti
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\bin\Debug\netcoreapp2.2\WS.runtimeconfig.dev.json
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\bin\Debug\netcoreapp2.2\WS.dll
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\bin\Debug\netcoreapp2.2\WS.pdb
+C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\obj\Debug\netcoreapp2.2\WS.csprojAssemblyReference.cache
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\obj\Debug\netcoreapp2.2\WS.csproj.CoreCompileInputs.cache
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\obj\Debug\netcoreapp2.2\WS.RazorAssemblyInfo.cache
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\obj\Debug\netcoreapp2.2\WS.RazorAssemblyInfo.cs
@@ -11,4 +12,12 @@ C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\obj\Debug\netcoreapp2.2\WS.Assem
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\obj\Debug\netcoreapp2.2\WS.RazorTargetAssemblyInfo.cache
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\obj\Debug\netcoreapp2.2\WS.dll
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\obj\Debug\netcoreapp2.2\WS.pdb
-C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\obj\Debug\netcoreapp2.2\WS.csprojAssemblyReference.cache
+C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\bin\Debug\netcoreapp2.2\CDD.dll
+C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\bin\Debug\netcoreapp2.2\CEF.dll
+C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\bin\Debug\netcoreapp2.2\CNG.dll
+C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\bin\Debug\netcoreapp2.2\MDL.dll
+C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\bin\Debug\netcoreapp2.2\CEF.pdb
+C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\bin\Debug\netcoreapp2.2\CNG.pdb
+C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\bin\Debug\netcoreapp2.2\MDL.pdb
+C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\bin\Debug\netcoreapp2.2\CDD.pdb
+C:\Users\Luis.Ferreira\Desktop\BackChimarrao\WS\obj\Debug\netcoreapp2.2\WS.csproj.CopyComplete

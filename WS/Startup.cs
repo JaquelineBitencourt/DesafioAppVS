@@ -57,6 +57,7 @@ namespace WS
             app.UseSignalR(routes =>
             {
                 routes.MapHub<Cronometro>("/Cronometro");
+                routes.MapHub<Usuario>("/Usuario");
             });
 
             app.UseStaticFiles();

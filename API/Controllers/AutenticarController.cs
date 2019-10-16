@@ -45,6 +45,13 @@ namespace API.Controllers
         //    return Ok(usuarioCEF);
         //}
 
+        [HttpGet]
+        [Route("ProximoChimarreando")]
+        public void ProximoChimarreando()
+        {
+            UsuarioNG.Instancia.ProximoChimarreando();
+        }
+
 
         [HttpPost]
         [Route("LogaUsuario")]
