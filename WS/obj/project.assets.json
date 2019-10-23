@@ -12163,11 +12163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\WS\\WS.csproj",
+      "projectUniqueName": "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\WS\\WS.csproj",
       "projectName": "WS",
-      "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\WS\\WS.csproj",
+      "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\WS\\WS.csproj",
       "packagesPath": "C:\\Users\\Luis.Ferreira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\WS\\obj\\",
+      "outputPath": "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\WS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12186,14 +12186,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\CEF\\CEF.csproj": {
-              "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\CEF\\CEF.csproj"
+            "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\CEF\\CEF.csproj": {
+              "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\CEF\\CEF.csproj"
             },
-            "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\CNG\\CNG.csproj": {
-              "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\CNG\\CNG.csproj"
+            "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\CNG\\CNG.csproj": {
+              "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\CNG\\CNG.csproj"
             },
-            "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\MDL\\MDL.csproj": {
-              "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\MDL\\MDL.csproj"
+            "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\MDL\\MDL.csproj": {
+              "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\MDL\\MDL.csproj"
             }
           }
         }

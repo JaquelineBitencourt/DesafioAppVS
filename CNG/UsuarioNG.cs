@@ -62,5 +62,26 @@ namespace CNG
         {
             UsuarioCDD.Instancia.ProximoChimarreador();
         }
+
+        public void ReafirmaLogados(int id)
+        {
+            UsuarioCDD.Instancia.ReafirmaLogados(id);
+        }
+
+        public bool DeslogaUsuarios(CEF.Modelos.Usuarios usuario)
+        {
+            return UsuarioCDD.Instancia.DeslogaUsuario(usuario);
+            
+        }
+
+        public void AtualizaDeslogados()
+        {
+           UsuarioCDD.Instancia.AtualizaDeslogados();
+        }
+
+        public CEF.Modelos.Usuarios BuscaUsuarioUnico(CEF.Modelos.Usuarios usuario)
+        {
+            return UsuarioCDD.Instancia.BuscaUsuarioUnico(usuario);
+        }
     }
 }

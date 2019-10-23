@@ -3617,11 +3617,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\CDD\\CDD.csproj",
+      "projectUniqueName": "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\CDD\\CDD.csproj",
       "projectName": "CDD",
-      "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\CDD\\CDD.csproj",
+      "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\CDD\\CDD.csproj",
       "packagesPath": "C:\\Users\\Luis.Ferreira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\CDD\\obj\\",
+      "outputPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\CDD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3640,11 +3640,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\CEF\\CEF.csproj": {
-              "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\CEF\\CEF.csproj"
+            "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\CEF\\CEF.csproj": {
+              "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\CEF\\CEF.csproj"
             },
-            "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\MDL\\MDL.csproj": {
-              "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\MDL\\MDL.csproj"
+            "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\MDL\\MDL.csproj": {
+              "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\MDL\\MDL.csproj"
             }
           }
         }

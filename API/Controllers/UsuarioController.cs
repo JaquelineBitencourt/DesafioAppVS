@@ -11,8 +11,16 @@ namespace API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class AutenticarController : ControllerBase
+    public class UsuarioController : ControllerBase
     {
+
+        [HttpPost]
+        [Route("BuscaUsuarioUnico")]
+        public ActionResult<CEF.Modelos.Usuarios> BuscaUsuarioUnico([FromBody]CEF.Modelos.Usuarios usuario)
+        {
+            return Ok(UsuarioNG.Instancia.BuscaUsuarioUnico(usuario));
+        }
+
         [HttpGet]
         [Route("BuscaUsuarios")]
         public ActionResult<Usuarios> BuscaUsuarios()
@@ -77,6 +85,13 @@ namespace API.Controllers
 
             return Ok(usuarioChimarreandoCEF);
 
+        }
+
+        [HttpPost]
+        [Route("DeslogaUsuario")]
+        public ActionResult<bool> DeslogaUsuario([FromBody] CEF.Modelos.Usuarios usuario)
+        {
+            return Ok(UsuarioNG.Instancia.DeslogaUsuarios(usuario));
         }
 
 

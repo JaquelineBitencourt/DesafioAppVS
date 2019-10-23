@@ -3,15 +3,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MDL;
+using CNG;
+using CEF;
 
 namespace WS
 {
-    public class Cronometro : Hub
+    public class WebSocket : Hub
     {
+        #region Timer
         private static int tempoAtual = 0;
         private static List<string> pessoas = new List<string>();
         private static DateTime tempoInicial;
-        private static int tempoMaximoSegundos = 300;
+        private static int tempoMaximoSegundos = 60;
 
         public async Task ResetaCronometro()
         {
@@ -23,8 +27,6 @@ namespace WS
 
         public async Task AtualizaCronometro()
         {
-            //if (pessoas.Count > 1)
-            //{
             if (tempoAtual == 0 || DateTime.Now >= tempoInicial.AddSeconds(tempoMaximoSegundos))
             {
                 tempoInicial = DateTime.Now;
@@ -41,9 +43,11 @@ namespace WS
             //    tempoInicial = DateTime.MinValue;
             //}
 
+
             await Clients.All.SendAsync("CR_RecebeTempoAtualizado", tempoAtual);
         }
-
+        #endregion
+        #region Usuario
         public void ReafirmaLogado(string Identificador)
         {
             if (!pessoas.Contains(Identificador))
@@ -63,5 +67,26 @@ namespace WS
                 await Clients.All.SendAsync("CR_SolicitaLogados");
             }
         }
+        
+
+        
+        public async Task BuscaUsuario()
+        {
+            CNG.UsuarioNG listaUsuario = new UsuarioNG();
+            await Clients.All.SendAsync("RespostaBuscaUsuario", listaUsuario.BuscaUsuarios());
+        }
+
+        public async Task AtualizaDeslogados()
+        {
+            UsuarioNG.Instancia.AtualizaDeslogados();
+            await Clients.All.SendAsync("RetornoDeslogados");
+        }
+
+        public async Task ReafirmaLogados(int id)
+        {
+            UsuarioNG.Instancia.ReafirmaLogados(id);
+            await Clients.All.SendAsync("ReafirmouLogados");
+        }
+        #endregion
     }
 }

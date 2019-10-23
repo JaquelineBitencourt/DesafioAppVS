@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\MDL\\MDL.csproj",
+      "projectUniqueName": "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\MDL\\MDL.csproj",
       "projectName": "MDL",
-      "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\MDL\\MDL.csproj",
+      "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\MDL\\MDL.csproj",
       "packagesPath": "C:\\Users\\Luis.Ferreira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\MDL\\obj\\",
+      "outputPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\MDL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

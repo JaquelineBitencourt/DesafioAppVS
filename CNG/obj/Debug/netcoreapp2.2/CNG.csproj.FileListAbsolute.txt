@@ -30,3 +30,35 @@ C:\Users\Luis.Ferreira\Desktop\BackChimarrao\CNG\obj\Debug\netcoreapp2.2\CNG.Ass
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\CNG\obj\Debug\netcoreapp2.2\CNG.csproj.CopyComplete
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\CNG\obj\Debug\netcoreapp2.2\CNG.dll
 C:\Users\Luis.Ferreira\Desktop\BackChimarrao\CNG\obj\Debug\netcoreapp2.2\CNG.pdb
+C:\Users\daniel.siqueira\Downloads\WebSocket Luis\17102019\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\bin\Debug\netcoreapp2.2\CNG.deps.json
+C:\Users\daniel.siqueira\Downloads\WebSocket Luis\17102019\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\bin\Debug\netcoreapp2.2\CNG.dll
+C:\Users\daniel.siqueira\Downloads\WebSocket Luis\17102019\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\bin\Debug\netcoreapp2.2\CNG.pdb
+C:\Users\daniel.siqueira\Downloads\WebSocket Luis\17102019\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\bin\Debug\netcoreapp2.2\CDD.dll
+C:\Users\daniel.siqueira\Downloads\WebSocket Luis\17102019\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\bin\Debug\netcoreapp2.2\CEF.dll
+C:\Users\daniel.siqueira\Downloads\WebSocket Luis\17102019\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\bin\Debug\netcoreapp2.2\MDL.dll
+C:\Users\daniel.siqueira\Downloads\WebSocket Luis\17102019\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\bin\Debug\netcoreapp2.2\CDD.pdb
+C:\Users\daniel.siqueira\Downloads\WebSocket Luis\17102019\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\bin\Debug\netcoreapp2.2\CEF.pdb
+C:\Users\daniel.siqueira\Downloads\WebSocket Luis\17102019\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\bin\Debug\netcoreapp2.2\MDL.pdb
+C:\Users\daniel.siqueira\Downloads\WebSocket Luis\17102019\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\obj\Debug\netcoreapp2.2\CNG.csprojAssemblyReference.cache
+C:\Users\daniel.siqueira\Downloads\WebSocket Luis\17102019\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\obj\Debug\netcoreapp2.2\CNG.csproj.CoreCompileInputs.cache
+C:\Users\daniel.siqueira\Downloads\WebSocket Luis\17102019\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\obj\Debug\netcoreapp2.2\CNG.AssemblyInfoInputs.cache
+C:\Users\daniel.siqueira\Downloads\WebSocket Luis\17102019\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\obj\Debug\netcoreapp2.2\CNG.AssemblyInfo.cs
+C:\Users\daniel.siqueira\Downloads\WebSocket Luis\17102019\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\obj\Debug\netcoreapp2.2\CNG.csproj.CopyComplete
+C:\Users\daniel.siqueira\Downloads\WebSocket Luis\17102019\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\obj\Debug\netcoreapp2.2\CNG.dll
+C:\Users\daniel.siqueira\Downloads\WebSocket Luis\17102019\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\obj\Debug\netcoreapp2.2\CNG.pdb
+C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\bin\Debug\netcoreapp2.2\CNG.deps.json
+C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\bin\Debug\netcoreapp2.2\CNG.dll
+C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\bin\Debug\netcoreapp2.2\CNG.pdb
+C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\bin\Debug\netcoreapp2.2\CDD.dll
+C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\bin\Debug\netcoreapp2.2\CEF.dll
+C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\bin\Debug\netcoreapp2.2\MDL.dll
+C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\bin\Debug\netcoreapp2.2\CDD.pdb
+C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\bin\Debug\netcoreapp2.2\CEF.pdb
+C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\bin\Debug\netcoreapp2.2\MDL.pdb
+C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\obj\Debug\netcoreapp2.2\CNG.csprojAssemblyReference.cache
+C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\obj\Debug\netcoreapp2.2\CNG.csproj.CoreCompileInputs.cache
+C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\obj\Debug\netcoreapp2.2\CNG.AssemblyInfoInputs.cache
+C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\obj\Debug\netcoreapp2.2\CNG.AssemblyInfo.cs
+C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\obj\Debug\netcoreapp2.2\CNG.csproj.CopyComplete
+C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\obj\Debug\netcoreapp2.2\CNG.dll
+C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\CNG\obj\Debug\netcoreapp2.2\CNG.pdb

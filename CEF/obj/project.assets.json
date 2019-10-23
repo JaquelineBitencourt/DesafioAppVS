@@ -12087,11 +12087,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\CEF\\CEF.csproj",
+      "projectUniqueName": "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\CEF\\CEF.csproj",
       "projectName": "CEF",
-      "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\CEF\\CEF.csproj",
+      "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\CEF\\CEF.csproj",
       "packagesPath": "C:\\Users\\Luis.Ferreira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackChimarrao\\CEF\\obj\\",
+      "outputPath": "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\CEF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
