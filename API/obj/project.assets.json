@@ -12159,11 +12159,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\API\\API.csproj",
+      "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Luis.Ferreira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\API\\obj\\",
+      "outputPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12182,14 +12182,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\CEF\\CEF.csproj": {
-              "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\CEF\\CEF.csproj"
+            "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\CEF\\CEF.csproj": {
+              "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\CEF\\CEF.csproj"
             },
-            "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\CNG\\CNG.csproj": {
-              "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\CNG\\CNG.csproj"
+            "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\CNG\\CNG.csproj": {
+              "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\CNG\\CNG.csproj"
             },
-            "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\MDL\\MDL.csproj": {
-              "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\Luisinho\\__BKP ORIGINAL - sem minhas alterações\\BackChimarrao\\MDL\\MDL.csproj"
+            "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\MDL\\MDL.csproj": {
+              "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\MDL\\MDL.csproj"
             }
           }
         }

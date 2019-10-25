@@ -33,3 +33,12 @@ C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações
 C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\MDL\obj\Debug\netcoreapp2.2\MDL.AssemblyInfo.cs
 C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\MDL\obj\Debug\netcoreapp2.2\MDL.dll
 C:\Users\Luis.Ferreira\Desktop\Luisinho\__BKP ORIGINAL - sem minhas alterações\BackChimarrao\MDL\obj\Debug\netcoreapp2.2\MDL.pdb
+C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\MDL\bin\Debug\netcoreapp2.2\MDL.deps.json
+C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\MDL\bin\Debug\netcoreapp2.2\MDL.dll
+C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\MDL\bin\Debug\netcoreapp2.2\MDL.pdb
+C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\MDL\obj\Debug\netcoreapp2.2\MDL.csprojAssemblyReference.cache
+C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\MDL\obj\Debug\netcoreapp2.2\MDL.csproj.CoreCompileInputs.cache
+C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\MDL\obj\Debug\netcoreapp2.2\MDL.AssemblyInfoInputs.cache
+C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\MDL\obj\Debug\netcoreapp2.2\MDL.AssemblyInfo.cs
+C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\MDL\obj\Debug\netcoreapp2.2\MDL.dll
+C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\MDL\obj\Debug\netcoreapp2.2\MDL.pdb

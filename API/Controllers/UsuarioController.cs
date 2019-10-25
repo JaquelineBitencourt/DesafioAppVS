@@ -14,6 +14,8 @@ namespace API.Controllers
     public class UsuarioController : ControllerBase
     {
 
+        
+
         [HttpPost]
         [Route("BuscaUsuarioUnico")]
         public ActionResult<CEF.Modelos.Usuarios> BuscaUsuarioUnico([FromBody]CEF.Modelos.Usuarios usuario)

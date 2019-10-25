@@ -216,7 +216,7 @@ namespace CDD
                                         select x).ToList();
 
                 Usuarios UsuarioChimarreando = (from l in db.Usuarios
-                                                where l.Chimarreando == true && l.Logado == true
+                                                where l.Chimarreando == true
                                                 select l).FirstOrDefault();
 
                 //Usuarios ProximoChimarreando = (from b in db.Usuarios
