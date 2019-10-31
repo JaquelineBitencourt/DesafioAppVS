@@ -72,10 +72,12 @@ C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\WS\bin\Debug\netcoreapp
 C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\WS\bin\Debug\netcoreapp2.2\WS.runtimeconfig.dev.json
 C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\WS\bin\Debug\netcoreapp2.2\WS.dll
 C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\WS\bin\Debug\netcoreapp2.2\WS.pdb
+C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\WS\bin\Debug\netcoreapp2.2\API.dll
 C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\WS\bin\Debug\netcoreapp2.2\CDD.dll
 C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\WS\bin\Debug\netcoreapp2.2\CEF.dll
 C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\WS\bin\Debug\netcoreapp2.2\CNG.dll
 C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\WS\bin\Debug\netcoreapp2.2\MDL.dll
+C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\WS\bin\Debug\netcoreapp2.2\API.pdb
 C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\WS\bin\Debug\netcoreapp2.2\CEF.pdb
 C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\WS\bin\Debug\netcoreapp2.2\CNG.pdb
 C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\WS\bin\Debug\netcoreapp2.2\MDL.pdb

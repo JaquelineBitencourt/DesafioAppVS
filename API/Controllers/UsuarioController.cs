@@ -13,47 +13,13 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class UsuarioController : ControllerBase
     {
-
-        
-
-        [HttpPost]
-        [Route("BuscaUsuarioUnico")]
-        public ActionResult<CEF.Modelos.Usuarios> BuscaUsuarioUnico([FromBody]CEF.Modelos.Usuarios usuario)
-        {
-            return Ok(UsuarioNG.Instancia.BuscaUsuarioUnico(usuario));
-        }
-
         [HttpGet]
         [Route("BuscaUsuarios")]
         public ActionResult<Usuarios> BuscaUsuarios()
         {
-
             CNG.UsuarioNG listaUsuario = new UsuarioNG();
-
             return Ok(listaUsuario.BuscaUsuarios());
         }
-
-
-        //[HttpPost]
-        //[Route("validaNomeUsuario")]
-        //public ActionResult<string> ValidaNomeUsuario([FromBody]Usuarios Usuario)
-        //{
-        //    Usuario = UsuarioNG.Instancia.ValidaUsuario(Usuarios);
-        //    return Ok(Usuario.NomeDoUsuario);
-        //}
-
-        //[HttpPost]
-        //[Route("UsuarioLogado")]
-        //public ActionResult<Usuarios> UsuarioLogado([FromBody]CEF.Modelos.Usuarios usuario)
-        //{
-
-        //    CNG.UsuarioNG usuariong = new UsuarioNG();
-        //    CEF.Modelos.Usuarios usuarioCEF = new CEF.Modelos.Usuarios();
-
-        //    usuarioCEF = usuariong.UsuarioLogado(usuario);
-
-        //    return Ok(usuarioCEF);
-        //}
 
         [HttpGet]
         [Route("ProximoChimarreando")]
@@ -67,12 +33,9 @@ namespace API.Controllers
         [Route("LogaUsuario")]
         public ActionResult<Usuarios> LogaUsuario([FromBody]CEF.Modelos.Usuarios usuario)
         {
-
             CNG.UsuarioNG logaUsuarioNG = new UsuarioNG();
             CEF.Modelos.Usuarios logaUsuarioCEF = new CEF.Modelos.Usuarios();
-
             logaUsuarioCEF = logaUsuarioNG.LogaUsuario(usuario);
-
             return Ok(logaUsuarioCEF);
         }
 
@@ -94,6 +57,13 @@ namespace API.Controllers
         public ActionResult<bool> DeslogaUsuario([FromBody] CEF.Modelos.Usuarios usuario)
         {
             return Ok(UsuarioNG.Instancia.DeslogaUsuarios(usuario));
+        }
+
+        [HttpPost]
+        [Route("SetaConnectionId")]
+        public void SetaConnectionId([FromBody] CEF.Modelos.Usuarios usuario)
+        {
+            UsuarioNG.Instancia.SetaConnectionId(usuario);
         }
 
 

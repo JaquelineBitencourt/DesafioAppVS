@@ -13,9 +13,8 @@ namespace WS
     {
         #region Timer
         private static int tempoAtual = 0;
-        private static List<string> pessoas = new List<string>();
         private static DateTime tempoInicial;
-        private static int tempoMaximoSegundos = 60;
+        private static int tempoMaximoSegundos = 300;
 
         public async Task ResetaCronometro()
         {
@@ -36,56 +35,37 @@ namespace WS
             {
                 tempoAtual = tempoMaximoSegundos - Convert.ToInt16(DateTime.Now.Subtract(tempoInicial).TotalSeconds);
             }
-            //}
-            //else
-            //{
-            //    tempoAtual = 0;
-            //    tempoInicial = DateTime.MinValue;
-            //}
-
 
             await Clients.All.SendAsync("CR_RecebeTempoAtualizado", tempoAtual);
         }
         #endregion
+
         #region Usuario
-        public void ReafirmaLogado(string Identificador)
+        public async Task GetConnectionId()
         {
-            if (!pessoas.Contains(Identificador))
-            {
-                pessoas.Add(Identificador);
-            }
+            await Clients.Caller.SendAsync("RespostaConnectionId", Context.ConnectionId);
+            await Clients.All.SendAsync("Conectou");
         }
 
-        public async Task EstouLogado(string Identificador)
+        public override async Task OnConnectedAsync()
+
         {
-            //string socketId = Context.ConnectionId;
-            if (!pessoas.Contains(Identificador))
-            {
-                pessoas.Clear();
-                pessoas.Add(Identificador);
-
-                await Clients.All.SendAsync("CR_SolicitaLogados");
-            }
+            string teste = Context.ConnectionId;
+            
+            await base.OnConnectedAsync();
         }
-        
 
-        
+        public override async Task OnDisconnectedAsync(Exception exception) // se na exception vier null = disconectou, se vier algo = caiu
+        {
+            UsuarioNG.Instancia.DisconectaUsuario(Context.ConnectionId);
+            await Clients.All.SendAsync("Disconectou");
+            await base.OnDisconnectedAsync(exception);
+        }
+
         public async Task BuscaUsuario()
         {
             CNG.UsuarioNG listaUsuario = new UsuarioNG();
             await Clients.All.SendAsync("RespostaBuscaUsuario", listaUsuario.BuscaUsuarios());
-        }
-
-        public async Task AtualizaDeslogados()
-        {
-            UsuarioNG.Instancia.AtualizaDeslogados();
-            await Clients.All.SendAsync("RetornoDeslogados");
-        }
-
-        public async Task ReafirmaLogados(int id)
-        {
-            UsuarioNG.Instancia.ReafirmaLogados(id);
-            await Clients.All.SendAsync("ReafirmouLogados");
         }
         #endregion
     }

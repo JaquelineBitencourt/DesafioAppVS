@@ -58,7 +58,6 @@ C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\CEF\bin\Debug\netcoreap
 C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\CEF\bin\Debug\netcoreapp2.2\CEF.runtimeconfig.dev.json
 C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\CEF\bin\Debug\netcoreapp2.2\CEF.dll
 C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\CEF\bin\Debug\netcoreapp2.2\CEF.pdb
-C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\CEF\obj\Debug\netcoreapp2.2\CEF.csprojAssemblyReference.cache
 C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\CEF\obj\Debug\netcoreapp2.2\CEF.csproj.CoreCompileInputs.cache
 C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\CEF\obj\Debug\netcoreapp2.2\CEF.RazorAssemblyInfo.cache
 C:\Users\Luis.Ferreira\Desktop\BackEndAtual\DesafioAppVS\CEF\obj\Debug\netcoreapp2.2\CEF.RazorAssemblyInfo.cs

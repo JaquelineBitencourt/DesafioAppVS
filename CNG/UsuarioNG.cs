@@ -40,15 +40,15 @@ namespace CNG
         }
         //public CEF.Modelos.Usuarios UsuarioLogado(CEF.Modelos.Usuarios usuario)
         //{
-            
+
         //    return UsuarioCDD.Instancia.UsuarioLogado(usuario);
         //}
 
 
         public CEF.Modelos.Usuarios LogaUsuario(CEF.Modelos.Usuarios usuario)
         {
-           
-           return UsuarioCDD.Instancia.LogaUsuario(usuario);
+
+            return UsuarioCDD.Instancia.LogaUsuario(usuario);
         }
 
 
@@ -63,25 +63,19 @@ namespace CNG
             UsuarioCDD.Instancia.ProximoChimarreador();
         }
 
-        public void ReafirmaLogados(int id)
-        {
-            UsuarioCDD.Instancia.ReafirmaLogados(id);
-        }
-
         public bool DeslogaUsuarios(CEF.Modelos.Usuarios usuario)
         {
             return UsuarioCDD.Instancia.DeslogaUsuario(usuario);
-            
         }
 
-        public void AtualizaDeslogados()
+        public void SetaConnectionId(CEF.Modelos.Usuarios usuario)
         {
-           UsuarioCDD.Instancia.AtualizaDeslogados();
+            UsuarioCDD.Instancia.SetaConnectionId(usuario);
         }
 
-        public CEF.Modelos.Usuarios BuscaUsuarioUnico(CEF.Modelos.Usuarios usuario)
+        public void DisconectaUsuario(string ConnectionID)
         {
-            return UsuarioCDD.Instancia.BuscaUsuarioUnico(usuario);
+            UsuarioCDD.Instancia.DisconectaUsuario(ConnectionID);
         }
     }
 }

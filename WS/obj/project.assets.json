@@ -4439,6 +4439,21 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "API/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "CEF": "1.0.0",
+          "CNG": "1.0.0",
+          "MDL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/API.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/API.dll": {}
+        }
+      },
       "CDD/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -12122,6 +12137,11 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "API/1.0.0": {
+      "type": "project",
+      "path": "../API/API.csproj",
+      "msbuildProject": "../API/API.csproj"
+    },
     "CDD/1.0.0": {
       "type": "project",
       "path": "../CDD/CDD.csproj",
@@ -12145,6 +12165,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "API >= 1.0.0",
       "CEF >= 1.0.0",
       "CNG >= 1.0.0",
       "MDL >= 1.0.0",
@@ -12186,6 +12207,9 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
+            "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\API\\API.csproj": {
+              "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\API\\API.csproj"
+            },
             "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\CEF\\CEF.csproj": {
               "projectPath": "C:\\Users\\Luis.Ferreira\\Desktop\\BackEndAtual\\DesafioAppVS\\CEF\\CEF.csproj"
             },

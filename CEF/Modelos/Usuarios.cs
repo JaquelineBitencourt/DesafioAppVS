@@ -10,5 +10,6 @@ namespace CEF.Modelos
         public bool? Logado { get; set; }
         public bool? Chimarreando { get; set; }
         public int? Ordem { get; set; }
+        public string ConnectionId { get; set; }
     }
 }

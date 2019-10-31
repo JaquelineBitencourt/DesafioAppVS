@@ -34,6 +34,11 @@ namespace CEF.Modelos
             {
                 entity.HasKey(e => e.IdUsuario);
 
+                entity.Property(e => e.ConnectionId)
+                    .HasColumnName("ConnectionID")
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
                 entity.Property(e => e.NomeDoUsuario)
                     .IsRequired()
                     .HasMaxLength(30)
